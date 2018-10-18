@@ -1,0 +1,15 @@
+:root {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#external-link {
+  color: white;
+  background-color: navy;
+}
+
+.keyboard {
+  font-family: 'Courier New', Courier, monospace;
+  color: maroon;
+  font-weight: bold;
+  font-size: 1.2rem;
+}

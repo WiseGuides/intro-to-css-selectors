@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="./css/index.css">
+  <title>Intro to CSS Selectors</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Intro to CSS Selectors</h1>
+    </header>
+    <div id="link-explanation">
+      <p style="color: navy;" id="inline">
+        There are three different ways of specifying styling. The least common is placing inline, as this p element does.
+      </p>
+      <p id="style-tag">Slightly more common, CSS rulesets can be placed in &lt;style> tags. This p element gets its styling from a &lt;style>
+        tag placed below.</p>
+      <p id="external-link">By far, the most common way to style elements is to write the rulesets in a separate file and then
+        <em>link</em> the CSS file. You can see the link on line 7 of this file.</p>
+    </div>
+
+    <div id="instructions">Further instructions can be found in the comments. Make changes to the
+      <span class="keyboard">index.css</span> file in the
+      <span class="keyboard">css</span> directory.
+    </div>
+
+    <div id="exploration">
+      <h2>Give me (and only me) a background color of blue with a text color of silver and a font size of 2.2rem.</h2>
+      <div>
+        <h2>I should be unstyled</h2>
+      </div>
+      <!-- If the following link hasn't been clicked, make the color red. (Check out the pseudo-class ":link") -->
+      <a href="https://csszengarden.com">Check out CSS Zen Garden</a>
+      <form>
+        <!-- Give all the labels in .form-control a font size of 1.2rem-->
+        <div class="form-control">
+          <label for="name">Name</label>
+          <!-- Give the input field a width of 200 pixels -->
+          <input type="text" name="name" id="id">
+        </div>
+        <div class="form-control">
+          <input type="checkbox" name="newsletter" id="newsletter">
+          <label for="newsletter">Subscribe to newsletter</label>
+        </div>
+        <div class="form-control">
+          <input type="checkbox" name="partner-ads" id="ads">
+          <label for="ads">Accept offers from our partners</label>
+        </div>
+      </form>
+
+      <div>
+        <div>
+          <div>
+            <p>Put a 1px solid red outline around me.</p>
+          </div>
+        </div>
+      </div>
+
+      <ul>
+        <li>When hovered over, my background color should be navy and my text color should be silver</li>
+        <li>When hovered over, my background color should be navy and my text color should be silver</li>
+        <li>When hovered over, my background color should be navy and my text color should be silver</li>
+      </ul>
+    </div>
+  </main>
+  <style>
+    #style-tag {
+      color: red;
+    }
+  </style>
+</body>
+
+</html>
